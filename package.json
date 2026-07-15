@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio site with direct contact mail delivery",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test:email": "node tests/send-mail.test.mjs"
+  },
+  "dependencies": {
+    "nodemailer": "^6.10.1"
+  }
+}
